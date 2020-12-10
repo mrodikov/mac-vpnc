@@ -1,7 +1,7 @@
 # mac-vpnc
 MacOS DNS fix for open connect
 
-Copy to /etc/vpnc, make chmod +x for every script in /etc/vpnc, replace "Wi-Fi" in use-vpn-dns & use-default-dns with interface you using to connect VPN.
+Copy to /etc/vpnc, make chmod +x for every script in /etc/vpnc, replace "Wi-Fi" in use-vpn-dns & use-default-dns with interface you use to connect VPN.
 You can find interface name by typing in terminal:
 ```bash
 networksetup -listnetworkserviceorder
